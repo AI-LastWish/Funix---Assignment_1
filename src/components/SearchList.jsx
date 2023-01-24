@@ -51,7 +51,7 @@ const SearchList = () => {
           className="space-y-12 sm:-mt-8 sm:space-y-0 lg:gap-x-8 lg:space-y-0"
         >
           {hotels.map((hotel) => (
-            <SearchListItem hotel={hotel} />
+            <SearchListItem key={hotel.id} hotel={hotel} />
           ))}
         </ul>
       </div>

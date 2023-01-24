@@ -28,7 +28,10 @@ export default function City() {
         className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
       >
         {cities.map((city) => (
-          <div key={city.id} className="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
+          <div
+            key={city.id}
+            className="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2"
+          >
             <img
               src={city.image}
               alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee."

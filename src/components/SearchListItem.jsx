@@ -2,8 +2,11 @@ import React from "react";
 
 const SearchListItem = ({ hotel }) => {
   return (
-    <li key={hotel.id} className="sm:py-8">
-      <div className="space-y-4 sm:grid sm:grid-cols-4 sm:items-start sm:gap-6 sm:space-y-0  p-2 border rounded-lg">
+    <li
+      className="sm:py-8 hover:cursor-pointer"
+      onClick={() => window.location.replace("/detail")}
+    >
+      <div className="space-y-4 sm:grid sm:grid-cols-4 sm:items-start sm:gap-6 sm:space-y-0 p-2 border rounded-lg">
         <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
           <img
             className="rounded-lg object-cover shadow-lg"

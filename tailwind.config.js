@@ -9,7 +9,11 @@ module.exports = {
       colors: {
         header_blue: {
           light: "#0071c2",
+          bright: "#48b5f1",
           DEFAULT: "#003680",
+        },
+        detail_blue:{
+          DEFAULT: "#ebf3ff"
         },
         search_green: {
           DEFAULT: "#00800a",
