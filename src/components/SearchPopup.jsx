@@ -61,9 +61,9 @@ const SearchPopup = () => {
               id="maxPricePerNight"
               type="text"
             />
-            <SearchPopupOptions name="Adult" id="adult" type="number" />
-            <SearchPopupOptions name="Children" id="children" type="number" />
-            <SearchPopupOptions name="Room" id="room" type="number" />
+            <SearchPopupOptions name="Adult" id="adult" type="number" defaultValue="1" />
+            <SearchPopupOptions name="Children" id="children" type="number" defaultValue="0" />
+            <SearchPopupOptions name="Room" id="room" type="number" defaultValue="1" />
           </div>
         </div>
         <div className="py-6">

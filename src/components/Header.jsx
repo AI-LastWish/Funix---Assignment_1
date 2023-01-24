@@ -7,7 +7,7 @@ import {
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
 
-const navigation = [{ name: "Booking Website", href: "#" }];
+const navigation = [{ name: "Booking Website", href: "/" }];
 const services = [
   {
     id: 1,

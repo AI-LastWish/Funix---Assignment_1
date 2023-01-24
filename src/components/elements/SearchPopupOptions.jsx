@@ -1,4 +1,4 @@
-const SearchPopupOptions = ({name, id, type}) => {
+const SearchPopupOptions = ({name, id, type, defaultValue = ""}) => {
   return (
     <div className="pl-4 sm:grid sm:grid-cols-2 sm:items-start sm:gap-4 sm:pt-5">
       <label
@@ -12,6 +12,7 @@ const SearchPopupOptions = ({name, id, type}) => {
           type={type}
           name={id}
           id={id}
+          defaultValue={defaultValue}
           autoComplete="given-name"
           className="block w-2/4 max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
         />
