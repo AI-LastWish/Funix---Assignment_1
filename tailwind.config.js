@@ -11,11 +11,14 @@ module.exports = {
           light: "#0071c2",
           DEFAULT: "#003680",
         },
+        search_green: {
+          DEFAULT: "#00800a",
+        },
         ag_red: {
           DEFAULT: "#E51431",
         },
         orange: {
-          DEFAULT: "#E67C0A",
+          DEFAULT: "#febb02",
         },
       },
     },
