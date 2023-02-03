@@ -51,7 +51,7 @@ export default function Header() {
         >
           <div className="flex w-full items-center justify-between border-b border-indigo-500 py-6 lg:border-none">
             <div className="flex items-center">
-              <div className="hidden space-x-8 lg:block">
+              <div className="hidden space-x-8 lg:!block">
                 {navigation.map((link) => (
                   <a
                     key={link.name}
